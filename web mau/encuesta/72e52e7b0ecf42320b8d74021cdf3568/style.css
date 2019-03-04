@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,300,400,700,800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800);
+
+body{background:#E2E2E2; margin:0px;}
+
+h1{font-family: 'Raleway', sans-serif; font-size:2.2em; font-weight:400; color:#0094A8; text-align:left;}
+h2{font-family: 'Raleway', sans-serif; font-size:1.6em; font-weight:300; color:#0094A8; border-bottom:#0094A8 dotted 1px;}
+h3{font-family: 'Open Sans', sans-serif; font-size:1.4em; color:#888;}
+p{font-family: 'Open Sans', sans-serif; font-size:1em; font-weight:300; color:#444;}
+ol, li{font-family: 'Open Sans', sans-serif; font-size:1em; font-weight:300; color:#444; margin:10px 0px; }
+legend{font-family: 'Open Sans', sans-serif; font-size:1em; color:#0094A8;}
+
+a:link, a:visited, a:active{font-family: 'Open Sans', sans-serif; font-size:1em; color:#DD7700; text-decoration:none;}
+
+input, select, textarea, checkbox{background:#0094A8; color:#FFF; font-family: 'Open Sans', sans-serif; font-size:1em; border:none; border-radius:5px; padding:5px;}
+input.button{background:#FFC000; padding:10px 20px; margin:20px 10px; font-size:1.2em; border:outset; border-radius:15px; text-transform:uppercase;}
+
+/* TABLAS */
+table{overflow-x:auto; width:100%; max-width:980px;}
+table thead th{font-family: 'Raleway', sans-serif; font-size:1em; font-weight:300; color:#FFF; background:#FF9900; border:#DD7700 solid 1px; padding:3px; border-radius:5px; text-align:center;}
+table tr td{font-family: 'Open Sans', sans-serif; font-size:0.8em; font-weight:300; color:#444; border:#CCC solid 1px; border-radius:5px; vertical-align:top; padding:2px 10px;}
+table tfoot td{font-family: 'Raleway', sans-serif; background:#0094A8; border:#0094A8; color:FFF; font-weight:400; font-size:1em; }
+tr:nth-child(even) {background: #FAFAFA;}
+tr:nth-child(odd) {background: #FFF;}
+
+#contenido{width:90%; max-width:940px; background:#FFF; padding:20px; text-align:justify;}
+#footer{background:#333; width:100%; max-width:980px; margin:0px; padding:50px 0px; text-align:center;}
+
+.option{background:#FAFAFA; padding:2px 10px 2px 0px; float:left; margin:2px 10px 2px 0px; border-radius:5px; font-family: 'Open Sans', sans-serif; font-size:0.9em; color:#444;}

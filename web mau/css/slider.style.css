@@ -1,0 +1,59 @@
+.ifs-slider{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.ifscSlider {
+    transition-property: transform, height;    
+}
+
+.ifs-slider .slide{
+    list-style: none;
+    float: left;
+}
+
+.IFSOuter {
+    overflow: hidden;
+}
+
+.ifsTransit {
+    -webkit-transition: all 0.51s;
+    -webkit-transition-property: -webkit-transform, height;
+    -moz-transition-property: -moz-transform, height;
+    transition-property: transform, height
+}
+
+.IFSSliderWrapper{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    transition-timing-function: ease;
+    transition-duration: 400ms
+}
+
+ul.ifsc-pager {
+    list-style: none;
+    margin: 10px;
+    overflow:hidden;
+}
+
+.ifsc-pager li{
+    float: left;
+}
+
+.hidden{
+    display: none
+}
+
+.disabled{
+    pointer-events: none    
+}
+
+
+/* CONTAINER */
+.container { width:96%; padding:10px 2% 20px; background:rgba(235,235,235,1); }
+.number{ background:#000; padding: 0px; font-weight: bold; color: #fff; text-align: center; display:block; height:200px; margin:0px 5px; }
+.number2{ background:#000; padding: 0px; font-weight: bold; color: #fff; text-align: center; display:block; height:200px; margin:0px 5px; }
+.center { text-align: center; }

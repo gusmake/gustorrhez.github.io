@@ -1,0 +1,1 @@
+<? if(isset($_SESSION['user'])){ include("reporte.php"); }else{ include("login.php"); } ?>

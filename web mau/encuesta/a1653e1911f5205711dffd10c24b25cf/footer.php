@@ -1,0 +1,1 @@
+  <div id="footer"><img src="img/expertaria.png" width="100px"><!--<p style="color:#FFF; font-size:0.7em;">Desarrollado por BYT Comunicaci&oacute;n</p>--></div>
